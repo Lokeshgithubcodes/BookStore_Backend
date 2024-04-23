@@ -1,0 +1,507 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\services\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\bookstoreapp\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\interfaces\\iaddressbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iaddressbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\services\\addressbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\addressbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\services\\bookrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\bookrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\bookstoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\bookstoreapp\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\services\\bookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\bookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\interfaces\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\interfaces\\ibookrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\ibookrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\bookstoreapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B149E6-6A2E-4CB9-AD10-CBFEDE947164}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\sendmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\sendmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\bookstoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB64F241-F3EA-4DBD-BF58-363BA71FF7CF}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\logintokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\logintokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E0026B7-BE2F-4DE4-801A-DCB58058CC1A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\bookstoreapp\\commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDB10E70-BB31-4043-9CCF-18227A391024}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\AddressModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\AddressModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\AddressModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\AddressModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:48:05.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "BookStoreApp\\Controllers\\AddressController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:44:57.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAddressbusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IAddressbusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IAddressbusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IAddressbusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IAddressbusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:44:30.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\AddressBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\AddressBusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\AddressBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\AddressBusiness.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:44:03.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\IAddressRepository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IAddressRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interfaces\\IAddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:43:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\AddressRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\AddressRepository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\AddressRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\AddressRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:43:05.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookStoreApp\\Controllers\\BookController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAiwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:13:05.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IBookBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IBookBusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IBookBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IBookBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:11:59.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\BookBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\BookBusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\BookBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\BookBusiness.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:11:23.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookRespository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IBookRespository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\IBookRespository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IBookRespository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interfaces\\IBookRespository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:10:48.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookRespository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\BookRespository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\BookRespository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\BookRespository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\BookRespository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA/wA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:10:06.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Entities\\Book.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entities\\Book.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:08:42.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\ForgotPasswordModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:58:16.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sendmsg.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\Sendmsg.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\Sendmsg.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\Sendmsg.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\Sendmsg.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T11:07:32.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BookStoreApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\appsettings.json",
+              "RelativeToolTip": "BookStoreApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T10:45:34.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginTokenModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\LoginTokenModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\LoginTokenModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\LoginTokenModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\LoginTokenModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:40:53.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\LoginModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:30:59.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\UpdateUser.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\UpdateUser.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\UpdateUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:24:21.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "userController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\userController.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Controllers\\userController.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Controllers\\userController.cs",
+              "RelativeToolTip": "BookStoreApp\\Controllers\\userController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T09:47:32.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BusinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-22T09:11:41.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-04-22T09:15:49.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\Models\\UserModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:03:28.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommonLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\CommonLayer.csproj",
+              "RelativeDocumentMoniker": "CommonLayer\\CommonLayer.csproj",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\CommonLayer\\CommonLayer.csproj",
+              "RelativeToolTip": "CommonLayer\\CommonLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-22T06:02:01.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Entities\\User.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:01:03.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BookStoreApp\\Program.cs",
+              "RelativeToolTip": "BookStoreApp\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:44:45.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IUserBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Interfaces\\IUserBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IUserBusiness.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:16:53.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\BusinessLayer\\Services\\UserBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\UserBusiness.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwDAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:16:37.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:16:17.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\BookStoreApp\\RepositoryLayer\\Services\\UserRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:16:00.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
