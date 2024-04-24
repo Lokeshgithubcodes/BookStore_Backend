@@ -10,5 +10,11 @@ namespace BusinessLayer.Interfaces
     public interface IAddressbusiness
     {
         public AddressModel AddAddress(AddressModel model);
+
+        public List<AddressModel> GetAddresses(int UserId);
+
+        public AddressUpdateModel UpdateAddress(AddressUpdateModel model);
+
+
     }
 }

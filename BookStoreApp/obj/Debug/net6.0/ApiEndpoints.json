@@ -16,6 +16,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookStoreApp.Controllers.AddressController",
+    "Method": "get_address",
+    "RelativePath": "api/Address/GetAddressByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AddressController",
+    "Method": "update_address",
+    "RelativePath": "api/Address/UpdateAddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.AddressUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookStoreApp.Controllers.BookController",
     "Method": "Get",
     "RelativePath": "api/Book/GetAllBooks",
@@ -89,6 +121,96 @@
       {
         "Name": "author",
         "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.OrderController",
+    "Method": "Add_order",
+    "RelativePath": "api/Order/AddOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.OrderModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.OrderController",
+    "Method": "Get_all_orders",
+    "RelativePath": "api/Order/GetAllOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.OrderController",
+    "Method": "Get_order_price",
+    "RelativePath": "api/Order/GetOrderPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.ReviewController",
+    "Method": "Add_review",
+    "RelativePath": "api/Review/AddReviewByUserId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.ReviewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.ReviewController",
+    "Method": "Getreview",
+    "RelativePath": "api/Review/GetReviewByBookId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -185,6 +307,54 @@
         "Name": "model",
         "Type": "CommonLayer.Models.UpdateUser",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.WishListController",
+    "Method": "Add_whishlist",
+    "RelativePath": "api/WishList/AddToWishList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.AddWhishlist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.WishListController",
+    "Method": "delete_whishlist",
+    "RelativePath": "api/WishList/DeleteWhishList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.DeleteCart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.WishListController",
+    "Method": "get_wishlist",
+    "RelativePath": "api/WishList/GetWhishList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

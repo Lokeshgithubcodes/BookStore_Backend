@@ -11,6 +11,9 @@ namespace RepositoryLayer.Interfaces
     {
         public AddressModel AddAddress(AddressModel model);
 
+        public List<AddressModel> GetAddresses(int UserId);
+
+        public AddressUpdateModel UpdateAddress(AddressUpdateModel model);
 
     }
 }

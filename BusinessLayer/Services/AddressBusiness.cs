@@ -23,6 +23,14 @@ namespace BusinessLayer.Services
             return addressRepository.AddAddress(model);
         }
 
+        public List<AddressModel> GetAddresses(int UserId)
+        {
+            return addressRepository.GetAddresses(UserId);
+        }
 
+        public AddressUpdateModel UpdateAddress(AddressUpdateModel model)
+        {
+            return addressRepository.UpdateAddress(model);
+        }
     }
 }

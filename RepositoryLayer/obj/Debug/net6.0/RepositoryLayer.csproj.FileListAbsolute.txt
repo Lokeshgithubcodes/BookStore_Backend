@@ -8,6 +8,7 @@ C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.sourcelink.json
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll

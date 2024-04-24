@@ -22,6 +22,14 @@ builder.Services.AddScoped<IBookBusiness, BookBusiness>();
 builder.Services.AddScoped<IBookRespository, BookRespository>();
 builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 builder.Services.AddScoped<IAddressbusiness, AddressBusiness>();
+builder.Services.AddScoped<IOrderRespository, OrderRespository>();
+builder.Services.AddScoped<IOrderBusiness, OrderBusiness>();
+builder.Services.AddScoped<IWhishListRepository, WhishListRepository>();
+builder.Services.AddScoped<IWhishListBusiness, WhishListBusiness>();
+builder.Services.AddScoped<IReviewRespository, ReviewRespository>();
+builder.Services.AddScoped<IReviewBusiness, ReviewBusiness>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<ICartBusiness, CartBusiness>();
 
 //For Genarate Token use this
 builder.Services.AddSwaggerGen(option =>

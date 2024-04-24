@@ -8,7 +8,6 @@ namespace CommonLayer.Models
 {
     public class AddressModel
     {
-        public int AId { get; set; }
 
         public string FullAddress { get; set; }
 
@@ -17,5 +16,7 @@ namespace CommonLayer.Models
         public string State { get; set; }
 
         public string Type { get; set; }
+
+        public int UserId { get; set; }
     }
 }

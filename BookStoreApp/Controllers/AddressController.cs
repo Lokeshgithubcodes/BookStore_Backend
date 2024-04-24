@@ -29,5 +29,34 @@ namespace BookStoreApp.Controllers
             return BadRequest();
 
         }
+
+        [HttpGet]
+        [Route("GetAddressByUserId")]
+
+        public IActionResult get_address(int userid)
+        {
+            var data = business.GetAddresses(userid);
+            if (data != null)
+            {
+                return Ok(data);
+            }
+            return BadRequest();
+        }
+
+
+        [HttpPut]
+        [Route("UpdateAddress")]
+
+        public IActionResult update_address(AddressUpdateModel model)
+        {
+            var data = business.UpdateAddress(model);
+            if (data != null)
+            {
+                return Ok(data);
+            }
+            return BadRequest();
+        }
+
+
     }
 }

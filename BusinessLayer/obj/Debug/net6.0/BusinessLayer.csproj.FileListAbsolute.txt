@@ -10,6 +10,7 @@ C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\Business.EA331CBA.Up2Date
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll

@@ -5,6 +5,7 @@ C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.AssemblyInfoInputs.cache
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.AssemblyInfo.cs
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.sourcelink.json
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.dll
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\refint\CommonLayer.dll
 C:\Users\Ramisettylokesh\source\repos\BookStoreApp\CommonLayer\obj\Debug\net6.0\CommonLayer.pdb
