@@ -271,5 +271,37 @@ namespace RepositoryLayer.Services
             }
         }
 
+        // check if a userid exist. if exists, update the userdetails else insert a new deatail of user  
+        public bool UserInsertOrUpdate(User user)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                try
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand("updateInsertUser", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Id", user.UserId);
+                    cmd.Parameters.AddWithValue("@FullName", user.FullName);
+                    cmd.Parameters.AddWithValue("@EmailId", user.EmailId);
+                    cmd.Parameters.AddWithValue("@Password", user.Password);
+                    cmd.Parameters.AddWithValue("@Mobile", user.Mobile);
+                    cmd.ExecuteNonQuery();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+                return false;
+            }
+        }
+
+
+
     }
 }

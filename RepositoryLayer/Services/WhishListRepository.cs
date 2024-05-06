@@ -109,7 +109,11 @@ namespace RepositoryLayer.Services
                 {
                     Console.WriteLine(ex.Message);
                 }
-                finally { conn.Close(); }
+                
+                finally { 
+                    conn.Close();
+                
+                }
                 return false;
 
             }

@@ -127,6 +127,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookStoreApp.Controllers.CartController",
+    "Method": "AddCart",
+    "RelativePath": "api/Cart/AddToCartByUserId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.CartModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.CartController",
+    "Method": "Delete_cart",
+    "RelativePath": "api/Cart/DeleteCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.DeleteCart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.CartController",
+    "Method": "GetCard",
+    "RelativePath": "api/Cart/GetCardByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.CartController",
+    "Method": "GetCardPrice",
+    "RelativePath": "api/Cart/GetCardPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.CartController",
+    "Method": "UpdateQty",
+    "RelativePath": "api/Cart/UpdateQuantityByUserId",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Models.CartModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookStoreApp.Controllers.OrderController",
     "Method": "Add_order",
     "RelativePath": "api/Order/AddOrder",
@@ -240,6 +330,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.userController",
+    "Method": "InserOrUpdate",
+    "RelativePath": "api/user/InsertOrUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "RepositoryLayer.Entities.User",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

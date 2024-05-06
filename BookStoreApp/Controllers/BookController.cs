@@ -25,7 +25,7 @@ namespace BookStoreApp.Controllers
             {
                 return NotFound();
             }
-            return Ok(data);
+            return Ok(new {Sucess=true, Message="Fetched All Books", Data=data});
         }
 
         [HttpGet]

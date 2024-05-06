@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RepositoryLayer.Interfaces;
 using CommonLayer.Models;
+using RepositoryLayer.Entities;
 
 namespace BusinessLayer.Services
 {
@@ -49,6 +50,9 @@ namespace BusinessLayer.Services
             return _userRepo.ResetPassword(email, password);
         }
 
-
+        public bool UserInsertOrUpdate(User user)
+        {
+            return _userRepo.UserInsertOrUpdate(user);
+        }
     }
 }

@@ -165,6 +165,8 @@ namespace RepositoryLayer.Services
             }
         }
 
+        //fetch a book detail using authorname and bookname
+
         public Book GetBookByTitleAndAuthor(string title, string author)
         {
             using (SqlConnection conn = new SqlConnection(connectionstring))
@@ -203,6 +205,7 @@ namespace RepositoryLayer.Services
                 return null;
             }
         }
+
 
     }
 }

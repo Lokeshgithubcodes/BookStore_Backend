@@ -38,7 +38,7 @@ namespace BookStoreApp.Controllers
             var data = business.GetAddresses(userid);
             if (data != null)
             {
-                return Ok(data);
+                return Ok(new {success=true, Message="Successfull", Data=data});
             }
             return BadRequest();
         }

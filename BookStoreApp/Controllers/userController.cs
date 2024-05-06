@@ -3,6 +3,7 @@ using CommonLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RepositoryLayer.Entities;
 
 namespace BookStoreApp.Controllers
 {
@@ -28,7 +29,7 @@ namespace BookStoreApp.Controllers
             var registerdata = userBusiness.RegisterUser(model);
             if (registerdata != null)
             {
-                return Ok(registerdata);
+                return Ok(new { Succes = true, Message = "Login Sucessfull", Data = registerdata });
             }
             return BadRequest();
         }
@@ -66,7 +67,7 @@ namespace BookStoreApp.Controllers
             var logindata = userBusiness.LoginUser(model);
             if (logindata != null)
             {
-                return Ok(logindata);
+                return Ok(new {Succes=true,Message="Login Sucessfull",Data= logindata });
             }
             return BadRequest();
         }
@@ -107,6 +108,19 @@ namespace BookStoreApp.Controllers
             }
             return BadRequest("Invalid Credentials");
 
+        }
+
+        [HttpPost]
+        [Route("InsertOrUpdate")]
+
+        public IActionResult InserOrUpdate(User user)
+        {
+            var res=userBusiness.UserInsertOrUpdate(user);
+            if (res != null)
+            {
+                return Ok(user);
+            }
+            return BadRequest();
         }
     }
 }

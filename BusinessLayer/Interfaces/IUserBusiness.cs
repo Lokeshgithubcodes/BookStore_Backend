@@ -1,4 +1,5 @@
 ﻿using CommonLayer.Models;
+using RepositoryLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +20,7 @@ namespace BusinessLayer.Interfaces
         public ForgotPasswordModel ForgotPassword(string email);
 
         public bool ResetPassword(string email, string password);
+
+        public bool UserInsertOrUpdate(User user);
     }
 }

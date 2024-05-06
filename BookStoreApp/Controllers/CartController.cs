@@ -37,7 +37,7 @@ namespace BookStoreApp.Controllers
             {
                 return NotFound();
             }
-            return Ok(data);
+            return Ok(new {Success=true, Message="Added Successfull", Data=data});
         }
 
         [HttpGet]
@@ -49,7 +49,7 @@ namespace BookStoreApp.Controllers
             {
                 return NotFound();
             }
-            return Ok(data);
+            return Ok(new { Success = true, Message = "Successfull", Data = data });
         }
 
         [HttpPut]
@@ -61,7 +61,7 @@ namespace BookStoreApp.Controllers
             {
                 return NotFound();
             }
-            return Ok(data);
+            return Ok(new { Success = true, Message = "Successfull", Data = data });
         }
 
 

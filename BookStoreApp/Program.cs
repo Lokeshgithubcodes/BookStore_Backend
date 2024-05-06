@@ -64,6 +64,15 @@ builder.Services.AddSwaggerGen(option =>
 });
 });
 
+//this is for bookStore Http Services
+builder.Services.AddCors((setup) =>
+{
+    setup.AddPolicy("default", (op) =>
+    {
+        op.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    });
+});
+
 
 builder.Services.AddControllers();
 
@@ -128,7 +137,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCors("default");
+
 
 app.MapControllers();
+
 
 app.Run();

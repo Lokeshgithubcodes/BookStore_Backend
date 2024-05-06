@@ -28,7 +28,7 @@ namespace BookStoreApp.Controllers
                 return BadRequest();
             }
 
-            return Ok(data);
+            return Ok(new {Success=true,Message="wishlist items are",Data=data});
         }
 
         [HttpPost]
@@ -42,7 +42,7 @@ namespace BookStoreApp.Controllers
             {
                 return BadRequest();
             }
-            return Ok(data);
+            return Ok(new {success=true, Message="Added Succesfully", Data=data});
         }
 
 
@@ -55,8 +55,9 @@ namespace BookStoreApp.Controllers
 
             if (data == null)
             {
-                return BadRequest();
+                return BadRequest(new { success = false, message = "Someting error" });
             }
+
             return Ok(new { message = "deleted sucessfully", result = true });
         }
     }
